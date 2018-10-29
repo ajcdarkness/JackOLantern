@@ -17,7 +17,7 @@ public class JackOLantern extends java.lang.Object{
         String done = "";
         for(int i = 0; i < faceFeatures.length; i++){
             for(int x = 0; x < faceFeatures[i].length; x++){
-                faceFeatures[x][i] = "X";
+                faceFeatures[i][x] = "X";
             }
         }
         return done;
