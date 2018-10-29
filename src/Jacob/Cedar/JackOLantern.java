@@ -13,11 +13,13 @@ public class JackOLantern extends java.lang.Object{
     }
     //I dont understand how to make it actually print something
 
+
+
     public java.lang.String toString(){
         String done = "";
         for(int i = 0; i < faceFeatures.length; i++){
             for(int x = 0; x < faceFeatures[i].length; x++){
-                faceFeatures[i][x] = "X";
+                done = faceFeatures[i][x] + "\n";
             }
         }
         return done;
